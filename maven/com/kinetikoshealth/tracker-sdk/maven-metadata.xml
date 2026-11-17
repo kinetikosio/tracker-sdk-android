@@ -3,12 +3,13 @@
   <groupId>com.kinetikoshealth</groupId>
   <artifactId>tracker-sdk</artifactId>
   <versioning>
-    <latest>1.0.0-beta.6</latest>
-    <release>1.0.0-beta.6</release>
+    <latest>1.0.0-beta.7</latest>
+    <release>1.0.0-beta.7</release>
     <versions>
       <version>1.0.0-beta.1</version>
       <version>1.0.0-beta.6</version>
+      <version>1.0.0-beta.7</version>
     </versions>
-    <lastUpdated>20261117114431</lastUpdated>
+    <lastUpdated>20261117164830</lastUpdated>
   </versioning>
 </metadata>

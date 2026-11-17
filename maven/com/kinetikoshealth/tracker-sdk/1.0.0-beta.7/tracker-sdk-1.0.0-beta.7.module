@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kinetikoshealth",
+    "module": "tracker-sdk",
+    "version": "1.0.0-beta.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tracker-sdk-1.0.0-beta.7.aar",
+          "url": "tracker-sdk-1.0.0-beta.7.aar",
+          "size": 479921,
+          "sha512": "5720d8cc5ea21309a006f952a2a880cdfb008c803efbff5e5a99550d2f7b30545804be920ff335e7d156a4dfe5ae425b80fb689e79f7924b518b9781cee0a75c",
+          "sha256": "5d636bdf6249438cba62d2d29165a937654fdc6daa839f4d2f37c1fab481a58c",
+          "sha1": "eb754d6990b7236e3dda767117fac43aa6565b84",
+          "md5": "5cde8a47cd9bd531a800c42c74649f89"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.02.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tracker-sdk-1.0.0-beta.7.aar",
+          "url": "tracker-sdk-1.0.0-beta.7.aar",
+          "size": 479921,
+          "sha512": "5720d8cc5ea21309a006f952a2a880cdfb008c803efbff5e5a99550d2f7b30545804be920ff335e7d156a4dfe5ae425b80fb689e79f7924b518b9781cee0a75c",
+          "sha256": "5d636bdf6249438cba62d2d29165a937654fdc6daa839f4d2f37c1fab481a58c",
+          "sha1": "eb754d6990b7236e3dda767117fac43aa6565b84",
+          "md5": "5cde8a47cd9bd531a800c42c74649f89"
+        }
+      ]
+    }
+  ]
+}
