@@ -3,7 +3,7 @@
 Records a person's walking in the background, uploads it to Kinetikos, and runs
 the 6-minute walk test, inside your app. This repository is where the SDK is
 published: a Maven repository under `maven/`, one folder per version. The
-latest is **1.0.0-beta.1**.
+latest is **1.0.0-beta.6**.
 
 ## Add it to your app
 
@@ -23,7 +23,7 @@ In your app module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.kinetikoshealth:tracker-sdk:1.0.0-beta.1")
+    implementation("com.kinetikoshealth:tracker-sdk:1.0.0-beta.6")
 }
 ```
 
